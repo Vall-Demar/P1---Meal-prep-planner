@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "opskrift.h"
 
-void(opskrifter)
+void init_opskrifter
 
 
 

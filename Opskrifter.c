@@ -9,6 +9,26 @@ void initOpskrifter(Opskrift opskrifter[], int antal) {
 }
 
 
+//Filter der kan sortere fra dyrets til billigste // Bubble sort baseret NY VOID KODE HER:
+
+
+
+
+// Variabel til at holde styr på, om vi har fundet nogen opskrifter
+
+
+
+// Loop gennem alle opskrifter 
+
+// Tjek om opskriften passer inden for budget og tid
+
+// Udskriv information om opskriften
+
+
+
+// Hvis ingen opskrifter blev fundet, vis en besked
+
+
 
 
 

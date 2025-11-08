@@ -1,14 +1,15 @@
-// Sørger for, at filen kun inkluderes én gang
+#ifndef OPSKRIFT_H
+#define OPSKRIFT_H
 
+typedef struct {
+    char navn[50];
+    int tid;           // minutter
+    char ingredienser[200];
+    char fremgangsmåde[300];
+    int pris;           // kr
+} Opskrift;
 
-// Definition af en struktur til opskrifter
+void initOpskrifter(Opskrift opskrifter[], int antal);
+void visOpskrifter(Opskrift opskrifter[], int antal, int budget, int tid);
 
-
-// Funktion til at initialisere et array med standardopskrifter
-
-
-
-// Funktion til at vise opskrifter, der passer indenfor budget og tid
-
-
-// OPSKRIFT_H
+#endif
